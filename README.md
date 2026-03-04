@@ -1,1 +1,5 @@
 # 2025573010044_algoritma_dan_struktur_data
+
+NAMA  : BILQIS RIZ FEBRIANI BR GAJAH
+
+NIM   : 2025573010044
