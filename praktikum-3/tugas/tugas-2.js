@@ -11,12 +11,20 @@ console.log(`7^0 = ${pangkat(7, 0)}`);
 
 function balikString(str) {
   if (str.length <= 1) return str;
-
-
   return str[str.length - 1] + balikString(str.slice(0, str.length - 1));
 }
 
 console.log("\n=== Uji Fungsi Balik String ===");
-console.log(`"halo" -> ${balikString("halo")}`); // olah
+console.log(`"halo" -> ${balikString("halo")}`); 
 console.log(`"javascript" -> ${balikString("javascript")}`);
 console.log(`"12345" -> ${balikString("12345")}`);
+
+function cekPalindrom(str) {
+  return str === balikString(str);
+}
+
+console.log("\n=== Uji Fungsi Cek Palindrom ===");
+console.log(`"katak" -> ${cekPalindrom("katak")}`); 
+console.log(`"civic" -> ${cekPalindrom("civic")}`); 
+console.log(`"level" -> ${cekPalindrom("level")}`); 
+console.log(`"hello" -> ${cekPalindrom("hello")}`); 
