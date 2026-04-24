@@ -20,7 +20,6 @@ function hitungStatistik(arrMahasiswa) {
     tertinggi: -Infinity,
     terendah: Infinity
   });
-
   return {
     total: hasil.total,
     rataRata: hasil.jumlahNilai / hasil.total,
@@ -28,11 +27,9 @@ function hitungStatistik(arrMahasiswa) {
     terendah: hasil.terendah
   };
 }
-
 function filterLulus(arrMahasiswa, batasLulus) {
   return arrMahasiswa.filter(mhs => mhs.nilai >= batasLulus);
 }
-
 function tambahGrade(arrMahasiswa) {
   return arrMahasiswa.map(mhs => {
     let grade;
@@ -46,7 +43,6 @@ function tambahGrade(arrMahasiswa) {
     return { ...mhs, grade };
   });
 }
-
 console.log("=== Statistik Mahasiswa ===");
 const statistik = hitungStatistik(dataMahasiswa);
 console.log(statistik);
