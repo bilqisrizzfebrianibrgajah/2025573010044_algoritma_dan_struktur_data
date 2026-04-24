@@ -42,7 +42,6 @@ console.log('Rata-rata nilai lulus:', rataRataNilaiLulus.toFixed(2));
 
 
 //latihan 4
-
 const produk = [
   { nama: "Laptop", harga: 8500000, stok: 5 },
   { nama: "Mouse", harga: 150000, stok: 0 },

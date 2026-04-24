@@ -7,7 +7,6 @@ function tambahkanItem(arr, item) {
 function isGenap(n) {
   return n % 2 === 0;
 }
-
 function binarySearch(arr, target) {
   let kiri = 0,
     kanan = arr.length - 1;
@@ -24,13 +23,11 @@ function binarySearch(arr, target) {
   }
   return -1;
 }
-
 function cariMax(arr) {
   let maks = arr[0];
   for (const x of arr) if (x > maks) maks = x;
   return maks;
 }
-
 function bubbleSortNaif(arr) {
   const a = [...arr];
   for (let i = 0; i < a.length; i++)
@@ -38,12 +35,10 @@ function bubbleSortNaif(arr) {
       if (a[j] > a[j + 1]) [a[j], a[j + 1]] = [a[j + 1], a[j]];
   return a;
 }
-
 function fibRekursif(n) {
   if (n <= 1) return n;
   return fibRekursif(n - 1) + fibRekursif(n - 2);
 }
-
 console.log("=== O(1) — selalu cepat ===");
 console.log(ambilPertama([10, 20, 30, 40, 50]));
 console.log(isGenap(42));

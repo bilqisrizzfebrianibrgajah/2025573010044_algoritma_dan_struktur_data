@@ -3,10 +3,8 @@ function sapa() {
 }
 sapa();
 sapa();
-
 function sapanama(nama){
     console.log('halo,${nama}! selamat belajar.');
-
 }
 sapanama('budi');
 sapanama('siti');
@@ -14,7 +12,6 @@ sapanama('siti');
  function tambah(angka1,angka2){
     const hasil =angka1+angka2;
     return hasil;
-
  }
  const hasilpenjumlahan = tambah(10,25);
  console.log('10 + 25 =',hasilpenjumlahan);
@@ -22,7 +19,6 @@ sapanama('siti');
 
  function hitung(nilai,pengali= 2){
     return nilai * pengali;
-
  }
  console.log(hitung(5));
  console.log(hitung(5, 3));
@@ -32,13 +28,13 @@ sapanama('siti');
     const pesanlokal ='saya hanya ada didalam function ini';
     console.log(pesanglobal);
     console.log(pesanlokal);
-
-
  }
  cekscope();
  console.log(pesanglobal);
 
- ("===Latihan 1: Kalkulator Sederhana===");
+
+
+("===Latihan 1: Kalkulator Sederhana===");
 function tambah(a, b) {
     return a + b;
 }
