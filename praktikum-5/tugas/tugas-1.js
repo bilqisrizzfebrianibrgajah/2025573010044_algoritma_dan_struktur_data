@@ -8,13 +8,11 @@ function intersectionSlow(arr1, arr2) {
       }
     }
   }
-
   return result;
 }
 function intersectionFast(arr1, arr2) {
   const set = new Set(arr1);
   const result = [];
-
   for (let num of arr2) {
     if (set.has(num)) {
       result.push(num);
@@ -24,7 +22,6 @@ function intersectionFast(arr1, arr2) {
 
   return result;
 }
-
 function groupAnagrams(arr) {
   const map = new Map();
 
@@ -37,7 +34,6 @@ function groupAnagrams(arr) {
 
     map.get(key).push(word);
   }
-
   return Array.from(map.values());
 }
 function tripletSlow(arr) {

@@ -11,11 +11,9 @@ function jumlahkanLinear(n) {
     let total = 0;
     for (let i = 1; i <= n; i++);
     return total;
-
 }
 function jumlahkanRumus(n){
     return (n * (n + 1)) / 2;
-
 }
 function cariPasangan(arr){
     const pasangan =[];
@@ -25,7 +23,6 @@ function cariPasangan(arr){
           }
     }
     return pasangan;
-
 }
 const data = Array.from({ length: 5000}, (_,i) => i);
 

@@ -17,7 +17,6 @@ function fn_OnLogn(n) {
       count++;
     }
   }
-
   return count;
 }
 function fn_On2(n) {
@@ -28,10 +27,8 @@ function fn_On2(n) {
       count++;
     }
   }
-
   return count;
 }
-
 function benchmarkSemua(ukuranData) {
   for (let n of ukuranData) {
     console.log(`\n=== n = ${n} ===`);
